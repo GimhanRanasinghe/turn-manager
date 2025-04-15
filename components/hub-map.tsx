@@ -846,7 +846,7 @@ export default function HubMap({ onSelectAircraft, satelliteView = false, gateCo
         vehicle.heading = 90
         el.innerHTML = `
                         <div class="gse-vehicle-icon" style="transform: rotate(${vehicle.heading}deg)">
-                          <img src="${resolvedTheme === "light" ? "/gse-vehicle-icon-dark.svg" : "/gse-vehicle-icon.svg"}" width="24" height="16" alt="GSE Vehicle" />
+                          <img src="${resolvedTheme === "light" ? "/gse-circle.svg" : "/gse-circle.svg"}" width="14" height="14" alt="GSE Vehicle" />
                         </div>
                       `
 
