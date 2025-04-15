@@ -584,7 +584,7 @@ export default function HubMap({ onSelectAircraft, satelliteView = false, gateCo
       })
 
       flightIndicesRef.current = newIndices
-    }, 10) // Update every 100ms
+    }, 50) // Update every 100ms
   }, [flightsData, calculateHeading])
 
   const addMarkersToMap = useCallback(() => {
